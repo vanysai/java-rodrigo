@@ -1,0 +1,25 @@
+public class CarroCorrida{
+    int NumeroIdentificacao;
+    Double velocidadeMaxima;
+    Double velocidadeMinima;
+    Boolean Areofolio;
+    Boolean Suspensao;
+
+
+void ligar{
+    System.out.printLin("VRUMMMMMMM");
+};
+
+
+void desligar{
+    System.out.printLin("MMMMMMMMMmmmmmmm");
+};
+
+void acelerar{
+    velocidadeAtual += 10;
+    if(velocidadeAtual > velocidadeMaxima){
+        velocidadeAtual = velocidadeMaxima;
+    }
+}
+
+};
